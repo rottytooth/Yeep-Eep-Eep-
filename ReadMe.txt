@@ -11,9 +11,9 @@ __     __             _ ______           _ ______           _
 
 Yeep! generates glitch imagery by messing with character encodings on the Commodore. 
 
-The magic happens on lines 110 and 210; that's where it sets the location for the video matrix and the character generator, without initializing. It leads to results that differ across machines, and depend on what (if anything) was run onscreen before the program starts, what is currently in memory.
+The magic happens on lines 1100 and 2100; that's where it sets the location for the video matrix and the character generator, without initializing. It leads to results that differ across machines, and depend on what (if anything) was run onscreen before the program starts, what is currently in memory.
 
-It also applies color randomly across the screen -- this is sometimes a bit slow -- starts at line 295.
+It also applies color randomly across the screen.
 
 I wrote this in Commodore Basic 2.0, and kept things as simple and clear as I could in case it would be useful for others messing with the Commodore.
 
