@@ -18,6 +18,7 @@ It also applies color randomly across the screen.
 I wrote this in Commodore Basic 2.0, and kept things as simple and clear as I could in case it would be useful for others messing with the Commodore.
 
 Released 2010
-http://danieltemkin.com
+http://danieltemkin.com/YeepEepEep
 
+There is also a small-edition book, contact for more info: site@danieltemkin.com
 
