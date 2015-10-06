@@ -1,2 +1,2 @@
-$ cat .gitattributes
-*.rb linguist-language=BASIC
+# Set Language
+*.bas   linguist-language=BASIC
